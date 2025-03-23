@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+header.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header .image_container img {
+    max-width: 80px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+header h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+nav.semester {
+    background: #00509e;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.semester-details {
+    margin-top: 10px;
+    padding: 15px;
+    background: #dff6ff;
+    border-left: 5px solid #0073e6;
+    border-radius: 5px;
+}
+
+.semester-details h2 {
+    color: #003366;
+}
+
+.semester-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.semester-details ul li {
+    padding: 5px 0;
+}
+
+.semester-details ul li a {
+    text-decoration: none;
+    color: #00509e;
+    font-weight: bold;
+}
+
+.semester-details ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.course {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-left: 5px solid #005bb5;
+    border-radius: 5px;
+}
+
+.course h3 {
+    color: #005bb5;
+}
+
+.course h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.course ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 5px;
+    background: #003366;
+    color: white;
+    border-radius: 8px;
+}
+
+footer h5 {
+    font-size: 13px;
+    color: yellow;
+    text-align: center;
+    margin-top: 0%;
+}
